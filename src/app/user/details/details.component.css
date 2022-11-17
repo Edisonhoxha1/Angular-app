@@ -1,0 +1,61 @@
+.detailsModal {
+  min-width: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 2rem;
+}
+
+.closebtn {
+  border: 0px;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+}
+
+.header .title {
+  font-family: "Arial Rounded MT Bold";
+  color: darkslategrey;
+  font-size: 25px;
+}
+
+.body .cars-data {
+  font-size: 20px;
+  text-align: center;
+}
+
+.body .list-data {
+  border: 1px solid #ab7979;
+  padding: 10px;
+  border-collapse: separate;
+}
+
+.body .list-data tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body .list-data th {
+  margin-right: 300px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.add-cart {
+  width: 50%;
+  height: 45px;
+  border: 0px;
+  font-family: cursive;
+  color: white;
+  background-color: #793434;
+}

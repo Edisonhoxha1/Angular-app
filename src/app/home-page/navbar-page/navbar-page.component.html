@@ -1,0 +1,12 @@
+<mat-toolbar>
+  <div>
+    <span class="app-title">Angular Application</span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+  </div>
+  <div class="example-button-row">
+    <button class="logout-btn" mat-button (click)="logOut()" [routerLink]="['']">Log Out</button>
+<!--    <button class="logout-btn" mat-button (click)="SignUp()" [routerLink]="['home/signUp']">SignUp</button>-->
+  </div>
+</mat-toolbar>

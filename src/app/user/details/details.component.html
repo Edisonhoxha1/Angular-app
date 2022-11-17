@@ -1,0 +1,25 @@
+<div class="detailsModal">
+  <div class="header">
+    <h2 class="title">{{ProductDetails.ProductName}}</h2>
+    <button class="closebtn" (click)="closeModal()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <hr>
+  <div class="body">
+    <h2 class="cars-data">Product data</h2>
+    <table class="list-data">
+      <tr>
+        <th>Product Date:</th>
+        <td>{{ProductDetails.DtProduct | date: 'dd/MM/yyyy'}}</td>
+      </tr>
+      <tr>
+        <th>Price:</th>
+        <td>{{ProductDetails.Price}}</td>
+      </tr>
+    </table>
+  </div>
+  <div class="footer">
+    <button class="add-cart" (click)="addToCart()">Add to Cart</button>
+  </div>
+</div>

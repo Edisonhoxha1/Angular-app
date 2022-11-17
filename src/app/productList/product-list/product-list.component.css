@@ -1,0 +1,35 @@
+table {
+  width: 100%;
+}
+
+.table {
+  margin: 0 0px 0 30px;
+  width: calc(100% - 60px);
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 40%;
+  color: lightskyblue;
+  font-family: "Arial Rounded MT Bold";
+}
+
+.cdk-column-id {
+  width: 30%;
+}
+
+td.mat-cell.cdk-cell {
+  vertical-align: inherit;
+}
+
+th {
+  color: darkcyan;
+  font-size: 15px;
+  font-family: "Arial Rounded MT Bold";
+}
+
+.icon{
+  text-align: center;
+  max-width: 30px;
+  margin-left: 30px;
+}
